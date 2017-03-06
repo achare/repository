@@ -1,2 +1,2 @@
 # repository
-not yet
+this is practice for me rookie 
