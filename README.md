@@ -1,9 +1,5 @@
 public class LoginClient {
-	public LoginClient() {
-		// TODO Auto-generated constructor stub
-	}
-
-	public static void main(String[] args) throws IOException, IOException {
+		public static void main(String[] args) throws IOException, IOException {
 		Socket socket=new Socket(InetAddress.getLocalHost(), 9090);// TODO Auto-generated method stub
         
 		OutputStream outputstream=socket.getOutputStream();
@@ -39,25 +35,9 @@ public class LoginClient {
 	}
 }
 ---------
-package login;
-
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.io.OutputStream;
-import java.io.OutputStreamWriter;
-import java.net.ServerSocket;
-import java.net.Socket;
-import java.util.Properties;
 
 public class LoginServer {
-
-	public LoginServer() {
+        public LoginServer() {
 		// TODO Auto-generated constructor stub
 	}
 
